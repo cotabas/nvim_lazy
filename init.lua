@@ -1,0 +1,5 @@
+vim.g.mapleader = " "
+
+require("cptmo")
+vim.opt.termguicolors = true
+vim.cmd.colorscheme 'gruvbox'
