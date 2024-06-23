@@ -1,4 +1,5 @@
 
+--vim.keymap.set("n", "<leader>cd", vim.cmd "CodeiumToggle")
 -- spell chex
 -- ok.. I was going to map spell check to leader z= but for some reason this turns it on always, but it only spell checks comments so that's fine I guess..
 --
