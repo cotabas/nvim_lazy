@@ -3,6 +3,8 @@
 -- spell chex
 -- ok.. I was going to map spell check to leader z= but for some reason this turns it on always, but it only spell checks comments so that's fine I guess..
 --
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { silent = true }) -- nnoremap <Esc> <C-\><C-n>
+--vim.keymap.nnoremap("<Esc>", "<C-\\><C-n>", { silent = true }) -- nnoremap <Esc> <C-\><C-n>
 vim.keymap.set("n", "<leader>z=", vim.cmd "setlocal spell spelllang=en_us")
 
 -- not as good as nerdtree
